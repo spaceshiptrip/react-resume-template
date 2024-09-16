@@ -39,9 +39,10 @@ const nextConfig = {
 // next.config.js
 module.exports = {
   output: 'export',
+  basePath: '/react-resume-template',
+  assetPrefix: '/react-resume-template/',
   images: {
     unoptimized: true,  // Disable Image Optimization for static exports
   },
-  // Add other Next.js configuration options here if needed
 };
 
