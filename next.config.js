@@ -36,4 +36,12 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// next.config.js
+module.exports = {
+  output: 'export',
+  images: {
+    unoptimized: true,  // Disable Image Optimization for static exports
+  },
+  // Add other Next.js configuration options here if needed
+};
+
